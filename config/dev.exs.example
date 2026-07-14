@@ -1,0 +1,5 @@
+config :favorite_quotes_api, FavoriteQuotesApi.Repo,
+  username: "postgres",
+  password: "your_postgres_password_here",
+  hostname: "localhost",
+  database: "favorite_quotes_api_dev"
